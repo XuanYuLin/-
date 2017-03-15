@@ -13,6 +13,7 @@
 		C3482BCD1E4489DD00FEFEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3482BCC1E4489DD00FEFEE8 /* Assets.xcassets */; };
 		C3482BD01E4489DD00FEFEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3482BCE1E4489DD00FEFEE8 /* LaunchScreen.storyboard */; };
 		C3482BD91E448B2400FEFEE8 /* YUMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3482BD81E448B2400FEFEE8 /* YUMainTableViewController.m */; };
+		C35B8DD21E790D9100AEFAA7 /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C35B8DD11E790D9100AEFAA7 /* PressAnimationButton.m */; };
 		C369CC711E4570C700A8FECF /* YUAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C369CC701E4570C700A8FECF /* YUAnimationViewController.m */; };
 		C369CC741E4576E900A8FECF /* YUReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C369CC731E4576E900A8FECF /* YUReplicatorAnimation.m */; };
 		C369CC771E45870200A8FECF /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C369CC761E45870200A8FECF /* YULoadingLabel.m */; };
@@ -31,6 +32,8 @@
 		C3482BD11E4489DD00FEFEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3482BD71E448B2400FEFEE8 /* YUMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMainTableViewController.h; sourceTree = "<group>"; };
 		C3482BD81E448B2400FEFEE8 /* YUMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMainTableViewController.m; sourceTree = "<group>"; };
+		C35B8DD01E790D9100AEFAA7 /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
+		C35B8DD11E790D9100AEFAA7 /* PressAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressAnimationButton.m; sourceTree = "<group>"; };
 		C369CC6F1E4570C700A8FECF /* YUAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUAnimationViewController.h; sourceTree = "<group>"; };
 		C369CC701E4570C700A8FECF /* YUAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUAnimationViewController.m; sourceTree = "<group>"; };
 		C369CC721E4576E900A8FECF /* YUReplicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUReplicatorAnimation.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				C369CC791E4588CD00A8FECF /* EmitterLayerView.m */,
 				C369CC7A1E4588CD00A8FECF /* SnowView.h */,
 				C369CC7B1E4588CD00A8FECF /* SnowView.m */,
+				C35B8DD01E790D9100AEFAA7 /* PressAnimationButton.h */,
+				C35B8DD11E790D9100AEFAA7 /* PressAnimationButton.m */,
 				C3482BC91E4489DD00FEFEE8 /* Main.storyboard */,
 				C3482BCC1E4489DD00FEFEE8 /* Assets.xcassets */,
 				C3482BCE1E4489DD00FEFEE8 /* LaunchScreen.storyboard */,
@@ -177,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35B8DD21E790D9100AEFAA7 /* PressAnimationButton.m in Sources */,
 				C3482BC51E4489DD00FEFEE8 /* AppDelegate.m in Sources */,
 				C369CC7C1E4588CD00A8FECF /* EmitterLayerView.m in Sources */,
 				C369CC771E45870200A8FECF /* YULoadingLabel.m in Sources */,
